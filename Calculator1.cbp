@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Calculator1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Calculator1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Calculator1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Calculator.h" />
+		<Unit filename="include/ConstantHandler.h" />
+		<Unit filename="include/Function.h" />
+		<Unit filename="include/FunctionHandler.h" />
+		<Unit filename="include/Operator.h" />
+		<Unit filename="include/OperatorHandler.h" />
+		<Unit filename="include/Token.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Calculator.cpp" />
+		<Unit filename="src/ConstantHandler.cpp" />
+		<Unit filename="src/Function.cpp" />
+		<Unit filename="src/FunctionHandler.cpp" />
+		<Unit filename="src/Operator.cpp" />
+		<Unit filename="src/OperatorHandler.cpp" />
+		<Unit filename="src/Token.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

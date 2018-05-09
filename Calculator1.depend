@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1525896963 source:d:\vlatko\programming\code\c++\calculator1\main.cpp
+	<iostream>
+	<ios>
+	<iomanip>
+	<Calculator.h>
+
+1525893935 d:\vlatko\programming\code\c++\calculator1\include\calculator.h
+	"Token.h"
+	"Operator.h"
+	"Function.h"
+	<string>
+	<vector>
+	<queue>
+	<stack>
+	<map>
+	<sstream>
+
+1525722791 d:\vlatko\programming\code\c++\calculator1\include\token.h
+	<string>
+
+1525897216 source:d:\vlatko\programming\code\c++\calculator1\src\calculator.cpp
+	"Calculator.h"
+	"OperatorHandler.h"
+	"ConstantHandler.h"
+	"FunctionHandler.h"
+	<iostream>
+	<ios>
+	<iomanip>
+	<algorithm>
+
+1525722566 source:d:\vlatko\programming\code\c++\calculator1\src\token.cpp
+	"Token.h"
+
+1525894125 d:\vlatko\programming\code\c++\calculator1\include\operator.h
+	"Token.h"
+	<functional>
+
+1525709465 d:\vlatko\programming\code\c++\calculator1\include\operatorhandler.h
+	"Operator.h"
+	<map>
+	<string>
+
+1525894117 source:d:\vlatko\programming\code\c++\calculator1\src\operator.cpp
+	"Operator.h"
+
+1525731079 source:d:\vlatko\programming\code\c++\calculator1\src\operatorhandler.cpp
+	"OperatorHandler.h"
+	<utility>
+	<cmath>
+
+1525719438 d:\vlatko\programming\code\c++\calculator1\include\constanthandler.h
+	<map>
+	<string>
+
+1525893573 source:d:\vlatko\programming\code\c++\calculator1\src\constanthandler.cpp
+	"ConstantHandler.h"
+
+1525894980 d:\vlatko\programming\code\c++\calculator1\include\function.h
+	<string>
+	<functional>
+	<vector>
+	"Token.h"
+
+1525896268 d:\vlatko\programming\code\c++\calculator1\include\functionhandler.h
+	<map>
+	<string>
+	"Function.h"
+
+1525894766 source:d:\vlatko\programming\code\c++\calculator1\src\function.cpp
+	"Function.h"
+
+1525896895 source:d:\vlatko\programming\code\c++\calculator1\src\functionhandler.cpp
+	"FunctionHandler.h"
+	<utility>
+	<cmath>
+
